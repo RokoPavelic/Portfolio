@@ -1,0 +1,20 @@
+.circles-container {
+  background: linear-gradient(to bottom, white 50%, #232323 50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+  }
+
+  .circle {
+    background-color: white;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+  }
+}

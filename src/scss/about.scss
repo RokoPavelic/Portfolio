@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+
+  h4 {
+    color: black;
+    font-size: 4em;
+  }
+
+  .about_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .about_picture {
+      height: 17em;
+      width: 17em;
+      background-color: red;
+      border-radius: 50%;
+      background-image: url("https://ca.slack-edge.com/T03D5RQJMK4-U03D8BWUJH2-707dc9d28fc7-512");
+      background-size: cover;
+    }
+
+    .about_description {
+      height: 20em;
+      width: 50%;
+      background-color: red;
+    }
+  }
+}

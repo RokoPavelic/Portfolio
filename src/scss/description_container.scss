@@ -1,0 +1,27 @@
+.description-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #232323;
+
+  .description {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2.5em;
+  }
+
+  .proces {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10em;
+    color: white;
+  }
+
+  .title-proces {
+    color: #54be90;
+    font-size: 1.8em;
+  }
+}

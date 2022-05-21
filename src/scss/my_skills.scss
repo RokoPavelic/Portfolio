@@ -1,0 +1,75 @@
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10em;
+}
+h4 {
+  font-size: 5em;
+  color: #54be90;
+}
+
+.skills {
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.progres-80 {
+  background-color: #54be90;
+  width: 80%;
+  height: 100%;
+}
+
+.progres-70 {
+  background-color: #54be90;
+  width: 70%;
+  height: 100%;
+}
+.progres-60 {
+  background-color: #54be90;
+  width: 60%;
+  height: 100%;
+}
+
+.progres-50 {
+  background-color: #54be90;
+  width: 50%;
+  height: 100%;
+}
+
+.skill-container {
+  height: 3em;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  padding: 0.4em;
+}
+
+.progres-bar {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillz {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232323;
+}
+
+.percentage {
+  width: full;
+  height: 3em;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.percentage p {
+  padding-right: 1em;
+}
